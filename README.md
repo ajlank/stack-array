@@ -1,23 +1,25 @@
-Features
+# Stack Implementation in Dart
 
-Generic type support (Stack<E>)
+This repository contains a simple generic **Stack** implementation in Dart.
 
-push() → Add an element
+---
 
-pop() → Remove and return the top element (safe, returns null if empty)
+## Features
 
-peek() → View the top element without removing (safe, returns null if empty)
+- Generic type support (`Stack<E>`)
+- `push()` → Add an element
+- `pop()` → Remove and return the top element (safe, returns null if empty)
+- `peek()` → View the top element without removing (safe, returns null if empty)
+- `isEmpty` → Check if the stack is empty
 
-isEmpty → Check if the stack is empty
+---
 
-Running Instructions
+## Running Instructions
 
-Clone the repository:
+1. **Clone the repository:**
 
+```bash
 git clone https://github.com/ajlank/stack-array.git
 cd stack-array
-
-
-Run the program:
 
 dart main.dart
