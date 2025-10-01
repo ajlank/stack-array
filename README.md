@@ -23,3 +23,6 @@ git clone https://github.com/ajlank/stack-array.git
 cd stack-array
 
 dart main.dart
+
+
+![Stack Diagram](stack.png)
