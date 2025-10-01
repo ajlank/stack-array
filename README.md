@@ -12,7 +12,11 @@ This repository contains a simple generic **Stack** implementation in Dart.
 - `peek()` → View the top element without removing (safe, returns null if empty)
 - `isEmpty` → Check if the stack is empty
 
+# Screenshot
+
+![Stack Diagram](stack.png)
 ---
+
 
 ## Running Instructions
 
@@ -25,4 +29,3 @@ cd stack-array
 dart main.dart
 
 
-![Stack Diagram](stack.png)
