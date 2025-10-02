@@ -26,6 +26,17 @@ This repository contains a simple generic **Stack** implementation in Dart.
 git clone https://github.com/ajlank/stack-array.git
 cd stack-array
 
-dart main.dart
+in main.dart
+---------------
+ final s=Stack<int>();
 
+  s.push(1);
+  s.push(2);
+  s.push(3);
+
+  print(s.peek());
+  print(s.pop());
+  print(s.isEmpty);
+
+From the terminal run-> dart main.dart
 
